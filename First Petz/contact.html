@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>First Petz: Contact</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="pets.css" rel="stylesheet">
+<link href="print.css" rel="stylesheet" media="print">
+</head>
+<body>
+<div id="wrapper">
+  <header class="header1">
+    <h1>First Petz</h1>
+  </header>  
+  <nav>
+      <ul>
+	<li><a href="home.html" >Home</a></li> 
+  <li> <a href="before.html"> Before the Day</a></li>
+  <li> <a href="firstday.html"> First Day</a> </li>
+<li><a href="neccessity.html"> Neccessity</a></li>
+  <li> <a href="tips.html"> Tips</a>
+<ul>
+	 <li><a href="food.html">Food</a></li>
+	 <li><a href="Hygine.html">Hygine</a></li>
+	 </ul>
+ <li> <a href="situation.html"> Common Situations</a></li>
+  <li> <a href="faq.html"> FAQ</a></li>
+    <li> <a href="mission.html"> Our Mission</a></li>
+	    <li> <a href="resource.html"> Resources</a>
+		<ul>
+		<li><a href="image.html">Image Gallery</a></li>
+		<li><a href="recommend.html"> Supplies</a></li>
+		</ul>
+		
+			    <li> <a href="contact.html"> Contact Us</a></li>
+</ul> 
+   
+   </nav>
+<main>
+<h3>Contact Us</h3>
+<form method="POST" action="https://fp1.formmail.com/cgi-bin/fm192">
+<fieldset>
+<legend>Personal Informarion</legend>
+<label>*Salutations:</label>
+<select name="choice" tabindex="1">
+<option value="Ms">Ms. </option>
+<option value="Mrs">Mrs. </option>
+<option value="Mr">Mr. </option>
+<option value="Miss.">Miss.</option>
+<option value="N/A">N/A</option>
+</select>
+
+<label for="myFnameame">*First Name:</label> 
+<input type="text" tabindex="2" name="myFname" id="myFnameame" required placeholder="First Name" accesskey="F">
+
+<label for="myLname">*Last Name:</label>
+<input type="text" tabindex="3" name="myLname" id="myLname" required placeholder="Last Name" accesskey="L"> 
+
+<label for="myEmail">*E-mail:</label>
+<input type="text" name="myEmail" id="myEmail" tabindex="4" required placeholder="Email Adress" accesskey="E">
+
+<label for="myPhone">*Phone Number:</label>
+<input type="number" name="myPhone" id="myPhone" tabindex="5" required placeholder="Phone Number" accesskey="P">
+</fieldset>
+<fieldset>
+<legend>Adress</legend>
+<label for="myStreet">*Street Name:</label> 
+<input type="text" name="myStreet" id="myStreet" tabindex="6" required placeholder="Street Name" accesskey="N">
+<label for="myAPT">*Apt Number:</label>
+<input type="number" name="myAPT" id="myAPT" tabindex="8" required placeholder="APT #" accesskey="A">
+<label for="myCity">*City Name:</label> 
+<input type="text" name="myCity" id="myCity" tabindex="9" required placeholder="City Name" accesskey="C">
+<label for="myZip">*Zip Code:</label> 
+<input type="number" name="myZip" id="myZip" tabindex="10" required placeholder="Zip Code" accesskey="Z">
+</fieldset>
+<fieldset>
+<legend>Free Respose</legend>
+<label for="mySubject">*Subject:</label>
+<input type="text" name="mySubject" id="mySubject" tabindex="11" required placeholder="Subject" accesskey="S">
+
+<label for="HearAboutUs">How did you hear about us?</label>
+  <input type="text" name="HearAboutUs" id="HearAboutUs" list="Hearaboutus" tabindex="12" accesskey="H" required placeholder="Please Respond">
+  <datalist id="Hearaboutus">
+  <option>Google</option>
+  <option>Bing</option>
+  <option>Facebook</option>
+  <option>Friend</option>
+  <option>Radio Ad</option>
+  </datalist>
+
+<label for="myComments">* Comments</label>
+  <textarea name="myComments" id="myComments" rows="2" cols="20">
+  </textarea>
+</fieldset>
+
+
+<fieldset>
+<legend>Extra Info</legend>
+  <label>Please check here if you wish to
+ receive an e-mail reply:</label><br>
+
+<input type="checkbox" name="choice" value="Y" >Yes <input type="checkbox" name="choice" value="N" >No
+ </fieldset>
+ <input type="submit" value="Send Now">
+  </form>
+  <h2>SOME MORE VIDEOS</h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ASxkyQKZE4k?si=QopuC_gf-KhYuPUV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zI8JSTGtRQc?si=MVXAbr0aKhNJcUPr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	
+	</main> 
+	<aside>
+	 
+  <h2>Map and Calender:</h2>
+	<iframe src="https://calendar.google.com/calendar/embed?src=c_f667c994d00ddd51328140fb52912f3dfb1bf97491ea9ca076d1082116336f01%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="500" height="200" frameborder="0" scrolling="no"></iframe>
+   <iframe id="map-canvas" class="map_part" width="500"  height="200"  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=1950 3rd St, La Verne, CA 91750 10281 W Pico Blvd,&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">Powered by <a href="https://embedgooglemaps.com">embed google maps html</a> and <a href="https://yatzyregler.com/da/">Yatzy regler</a></iframe>
+ <fieldset>
+ <legend>Our Socials!</legend>
+  <a href=mailto:"firstpetzcorp@gmail.com"><img src="gmail.png" alt="gmail" style="width:70px;height:80px;"></a>
+   <a href="https://www.instagram.com/firstpetz/"><img src="instagram.png" alt="Instragram" style="width:70px;height:80px;"></a>
+    <a href="https://www.facebook.com/profile.php?id=61553741694540"><img src="facebook.png" alt="Facebook" style="width:70px;height:80px;"></a>
+	   <a href="https://twitter.com/firstpetz"><img src="twitter.png" alt="Twitter" style="width:70px;height:80px;"></a>
+	  
+	   	   <a href=" https://www.youtube.com/channel/UCB_E-aKoe6qQjqdQriYu4IQ"><img src="youtube.png" alt="Youtube" style="width:70px;height:80px;"></a>
+		   </fieldset>
+ </aside>
+	<br>
+   <footer>
+   Copyright  &copy; First Petz 2023<br>erika.ruiz@laverne.edu <br><br><br>
+   <a href="home.html" >Home</a> &nbsp
+  <a href="before.html"> Before the Day</a>&nbsp
+   <a href="firstday.html"> First Day</a> &nbsp
+<a href="neccessity.html"> Neccessity</a>&nbsp
+ <a href="tips.html"> Tips</a>&nbsp
+
+	 <a href="food.html">Food</a>&nbsp
+	 <a href="Hygine.html">Hygine</a>&nbsp
+	 
+ <a href="situation.html"> Common Situations</a>&nbsp
+  <a href="faq.html"> FAQ</a>&nbsp
+     <a href="mission.html"> Our Mission</a>&nbsp
+	     <a href="resource.html"> Resources</a>&nbsp
+		  <a href="image.html">Image Gallery</a>&nbsp
+	 <a href="recommend.html">Supplies</a>&nbsp
+			    <a href="contact.html"> Contact Us</a>&nbsp
+   </footer>
+</div>
+</body>
+</html>
